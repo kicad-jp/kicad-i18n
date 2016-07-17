@@ -3,38 +3,18 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-30 15:30+0900\n"
-"PO-Revision-Date: 2015-11-30 15:30+0900\n"
-"Last-Translator: starfort <starfort@nifty.com>\n"
+"PO-Revision-Date: 2016-07-17 20:38+0900\n"
+"Last-Translator: starfort-jp <starfort@nifty.com>\n"
 "Language-Team: kicad_jp <kaoruzen@gmail.com>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _\n"
-"X-Poedit-Basepath: ../../../../../../../Source/kicad-4.0.0\n"
-"X-Generator: Poedit 1.8.6\n"
-"X-Poedit-SearchPath-0: 3d-viewer\n"
-"X-Poedit-SearchPath-1: bitmap2component\n"
-"X-Poedit-SearchPath-2: common\n"
-"X-Poedit-SearchPath-3: cvpcb\n"
-"X-Poedit-SearchPath-4: eeschema\n"
-"X-Poedit-SearchPath-5: gerbview\n"
-"X-Poedit-SearchPath-6: include\n"
-"X-Poedit-SearchPath-7: kicad\n"
-"X-Poedit-SearchPath-8: lib_dxf\n"
-"X-Poedit-SearchPath-9: new\n"
-"X-Poedit-SearchPath-10: pagelayout_editor\n"
-"X-Poedit-SearchPath-11: patches\n"
-"X-Poedit-SearchPath-12: pcb_calculator\n"
-"X-Poedit-SearchPath-13: pcbnew\n"
-"X-Poedit-SearchPath-14: polygon\n"
-"X-Poedit-SearchPath-15: potrace\n"
-"X-Poedit-SearchPath-16: scripting\n"
-"X-Poedit-SearchPath-17: scripts\n"
-"X-Poedit-SearchPath-18: tools\n"
-"X-Poedit-SearchPath-19: utils/idftools\n"
+"X-Poedit-Basepath: kicad-4.0.2\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
 
-# Nov.30,2015 : Release for KiCad 4.0.0.
 #: 3d-viewer/3d_canvas.cpp:389
 msgid "Zoom +"
 msgstr "ズーム イン"
@@ -1417,7 +1397,7 @@ msgstr "USLedger 11x17in"
 
 #: common/dialogs/dialog_page_settings.cpp:74
 msgid "User (Custom)"
-msgstr "ユーザ設定 (カスタム)"
+msgstr "ユーザー (カスタム)"
 
 #: common/dialogs/dialog_page_settings.cpp:267
 #: common/dialogs/dialog_page_settings.cpp:713
@@ -6787,7 +6767,7 @@ msgstr "最近開いた回路図を開く"
 
 #: eeschema/menubar.cpp:103
 msgid "App&end Schematic Sheet"
-msgstr "回路図シートを追加(&e)"
+msgstr "回路図シートから追加(&e)"
 
 #: eeschema/menubar.cpp:104
 msgid "Append schematic sheet to current project"
@@ -9457,7 +9437,7 @@ msgstr "%s の終了 [pid=%d]\n"
 #: kicad/mainframe.cpp:280
 #, c-format
 msgid "%s %s opened [pid=%ld]\n"
-msgstr "%s %s 開きました [pid=%ld]\n"
+msgstr "%s %sの開始 [pid=%ld]\n"
 
 #: kicad/mainframe.cpp:451
 msgid "Text file ("
@@ -9515,7 +9495,7 @@ msgstr "新規プロジェクト作成"
 #: kicad/menubar.cpp:252 pcbnew/menubar_pcbframe.cpp:109
 #: pcbnew/menubar_pcbframe.cpp:566
 msgid "&Save"
-msgstr "設定の保存(&S)"
+msgstr "保存(&S)"
 
 #: kicad/menubar.cpp:254 kicad/menubar.cpp:481
 msgid "Save current project"
@@ -9875,14 +9855,14 @@ msgstr "Y位置(mm)"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:252
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:307
 msgid "Upper Right"
-msgstr "左上"
+msgstr "右上"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:52
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:96
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:253
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:308
 msgid "Upper Left"
-msgstr "右上"
+msgstr "左上"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:52
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:96
@@ -9891,7 +9871,7 @@ msgstr "右上"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:306
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:309
 msgid "Lower Right"
-msgstr "左下"
+msgstr "右下"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:52
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:96
@@ -19811,7 +19791,7 @@ msgstr "デザインルール エディタを開く"
 
 #: pcbnew/menubar_pcbframe.cpp:640
 msgid "&Layers Setup"
-msgstr "レイヤのセットアップ(&L)"
+msgstr "レイヤ セットアップ(&L)"
 
 #: pcbnew/menubar_pcbframe.cpp:640
 msgid "Enable and set layer properties"
@@ -22635,80 +22615,103 @@ msgstr ""
 msgid "Import DXF File"
 msgstr "DXFファイルのインポート"
 
+#, fuzzy
 #~ msgid "The original site of the initiator of KiCad"
 #~ msgstr "KiCad 創始者のオリジナル サイト"
 
+#, fuzzy
 #~ msgid "Project on Launchpad"
-#~ msgstr "Launchpad上のプロジェクト"
+#~ msgstr "Launchpad 上の開発者向けサイト"
 
+#, fuzzy
 #~ msgid "The new KiCad site"
-#~ msgstr "新しいKiCadのWebサイト"
+#~ msgstr "KiCad オフィシャル サイト"
 
+#, fuzzy
 #~ msgid "GNU General Public License (GPL) version 2 or any later version"
-#~ msgstr "GNU 一般公衆ライセンス (GPL) バージョン 2 以降"
+#~ msgstr ""
+#~ "GNU General Public License (GPL) のバージョン3 以降の全てのバージョン"
 
+#, fuzzy
 #~ msgid "Top side"
-#~ msgstr "上側:"
+#~ msgstr "上から見る"
 
+#, fuzzy
 #~ msgid "Bottom side"
-#~ msgstr "下側:"
+#~ msgstr "下から見る"
 
 #~ msgid "Side"
 #~ msgstr "横"
 
+#, fuzzy
 #~ msgid "Other rotation"
-#~ msgstr "他の回転角"
+#~ msgstr "アイテムの回転:"
 
+#, fuzzy
 #~ msgid "Lock module"
-#~ msgstr "モジュールをロック"
+#~ msgstr "パッドをロック"
 
+#, fuzzy
 #~ msgid "Add module"
-#~ msgstr "モジュールを追加"
+#~ msgstr "線を追加"
 
+#, fuzzy
 #~ msgid "No modules for automated placement."
-#~ msgstr "自動配置するモジュールがありません。"
+#~ msgstr "自動配置するフットプリントがありません"
 
+#, fuzzy
 #~ msgid "Unknown padshape '%c=0x%02x' on line: %d of module: '%s'"
-#~ msgstr "未知のパッド形状 '%c=0x%02x' %d 行目 (モジュール '%s')"
+#~ msgstr "未知のパッド形状 '%c=0x%02x' 、行: %d 、フットプリント: '%s'"
 
+#, fuzzy
 #~ msgid "OK to delete module %s in library '%s'"
-#~ msgstr "モジュール '%s' をライブラリ '%s' から削除します。よろしいですか？"
+#~ msgstr "フットプリント %s (ライブラリ '%s' )を削除してもよろしいですか？"
 
+#, fuzzy
 #~ msgid "Modules [%u items]"
-#~ msgstr "モジュール [%u アイテム]"
+#~ msgstr "フットプリント [%u アイテム]"
 
 #~ msgid "Module"
 #~ msgstr "モジュール"
 
+#, fuzzy
 #~ msgid "Create a new library and save current module into it"
-#~ msgstr "新規ライブラリを作成して現在のモジュールを保存"
+#~ msgstr "新規ライブラリを作成して現在のフットプリントを保存"
 
 #~ msgid "(Re)create components file (*.cmp) for CvPcb"
 #~ msgstr "CvPcb用のコンポーネント ファイル(*.cmp)を(再)作成"
 
+#, fuzzy
 #~ msgid "Delete Footprint %s (value %s) ?"
-#~ msgstr "フットプリント %s (定数 %s) を削除しますか？"
+#~ msgstr "パッドを削除しますか(フットプリント %s %s) ?"
 
+#, fuzzy
 #~ msgid "cannot handle module text type %s"
-#~ msgstr "モジュールのテキストタイプ %s は扱うことが出来ません。"
+#~ msgstr "フットプリント テキスト タイプ %s は使用できません"
 
+#, fuzzy
 #~ msgid "Your BOARD has a bad layer number for module %s"
-#~ msgstr "ボードがモジュール %s に対して不正なレイヤ番号を持っています"
+#~ msgstr "ボードにフットプリント %s に対して不正なレイヤ番号があります"
 
+#, fuzzy
 #~ msgid "Add modules"
-#~ msgstr "モジュールを追加"
+#~ msgstr "線の追加"
 
+#, fuzzy
 #~ msgid "The original site of the initiator of Kicad"
-#~ msgstr "KiCad 創始者のオリジナルサイト"
+#~ msgstr "KiCad 創始者のオリジナル サイト"
 
+#, fuzzy
 #~ msgid "About Kicad"
-#~ msgstr "Kicad について"
+#~ msgstr "Kicad について(&A)"
 
+#, fuzzy
 #~ msgid "About KiCad project manager"
-#~ msgstr "KiCad プロジェクト マネージャーについて"
+#~ msgstr "Kicad プロジェクト ファイル"
 
+#, fuzzy
 #~ msgid "<b>Current general settings:</b><br>"
-#~ msgstr "<b>現在の全般設定:</b><br>"
+#~ msgstr "現在の半田マスク設定:"
 
 #~ msgid "Minimum value for tracks width: <b>%s</b><br>\n"
 #~ msgstr "配線の最小幅: <b>%s</b> <br>\n"
@@ -22722,211 +22725,265 @@ msgstr "DXFファイルのインポート"
 #~ msgid "Errors detected, Abort"
 #~ msgstr "エラーを検出しました, 中止します"
 
+#, fuzzy
 #~ msgid "This NetClass is already existing, cannot add it; Aborted"
-#~ msgstr "このネットクラスは既に存在するため、追加できません; 中止します"
+#~ msgstr "指定されたレギュレータは既にリストへ登録されています。"
 
+#, fuzzy
 #~ msgid "The default Netclass cannot be removed"
-#~ msgstr "デフォルトのネットクラスは削除できません"
+#~ msgstr "デフォルト ネットクラスは削除できません。"
 
+#, fuzzy
 #~ msgid ""
 #~ "Enable/disable the DRC control.\n"
 #~ "When DRC is disable, all connections are allowed."
 #~ msgstr ""
-#~ "DRC監視の有効化/無効化。\n"
-#~ "DRCの無効化中はどんな接続でも許可されます。"
+#~ "DRC 有効／無効。\n"
+#~ "DRC を無効にした場合、全ての接続が可能です。"
 
+#, fuzzy
 #~ msgid "&Switch canvas to default"
-#~ msgstr "描画キャンバスを標準へ切替(&S)"
+#~ msgstr "描画キャンバスを 標準 に切替 (&S)"
 
+#, fuzzy
 #~ msgid "Switch canvas to Open&GL"
-#~ msgstr "描画キャンバスを OpenGL(3D) へ切替(&G)"
+#~ msgstr "描画キャンバスを OpenGL(3D) に切替 (&G)"
 
+#, fuzzy
 #~ msgid "Switch canvas to &Cairo"
-#~ msgstr "描画キャンバスを Cairo(2D) へ切替(&C)"
+#~ msgstr "描画キャンバスを Cairo(2D) に切替 (&C)"
 
 #~ msgid "Select default parameters values in Footprint Editor"
 #~ msgstr "フットプリント エディタでのデフォルト値を選択"
 
+#, fuzzy
 #~ msgid "I&DFv3 Export"
-#~ msgstr "IDFv3 エクスポート(&D)"
+#~ msgstr "エクスポート %s"
 
+#, fuzzy
 #~ msgid "&Archive New Footprints"
-#~ msgstr "フットプリントを新規にアーカイブ(&A)"
+#~ msgstr "フットプリントのアーカイブ(&h)"
 
+#, fuzzy
 #~ msgid ""
 #~ "Archive new footprints only in a library (keep other footprints in this "
 #~ "lib)"
 #~ msgstr ""
-#~ "(このライブラリ中の他のフットプリントを維持したまま) ライブラリ中の新規"
-#~ "フットプリントをアーカイブ"
+#~ "フットプリント ライブラリ テーブルにある既存のライブラリへフットプリントを"
+#~ "アーカイブ (このライブラリにある他のフットプリントを削除しないこと)"
 
+#, fuzzy
 #~ msgid "&Create Footprint Archive"
-#~ msgstr "フットプリント アーカイブの作成(&C)"
+#~ msgstr "フットプリント配列を作成"
 
+#, fuzzy
 #~ msgid "Archive all footprints in a library (old library will be deleted)"
 #~ msgstr ""
-#~ "ライブラリ中の全てのフットプリントをアーカイブ (古いライブラリは削除されま"
-#~ "す)"
+#~ "新しいライブラリへ全てのフットプリントをアーカイブ\n"
+#~ "(このライブラリが存在していた場合は削除されます)"
 
+#, fuzzy
 #~ msgid "Configure Interactive Routing."
-#~ msgstr "インタラクティブ ルーターの設定"
+#~ msgstr "インタラクティブ ルーターを設定する。"
 
+#, fuzzy
 #~ msgid "Fast access to the Web Based FreeROUTE advanced router"
 #~ msgstr "外部ルータ Freerouter とのデータ交換"
 
+#, fuzzy
 #~ msgid "P&cbnew Manual"
-#~ msgstr "Pcbnew マニュアル(&c)"
+#~ msgstr "Pcbnew マニュアル(&M)"
 
+#, fuzzy
 #~ msgid "Apply a grid/cloud textures to Board, Solder Mask and Silkscreen"
-#~ msgstr ""
-#~ "基板、半田マスク、シルクスクリーンに対してグリッド/クラウド テクスチャを適"
-#~ "用します"
+#~ msgstr "grid/cloud テクスチャを基板、ハンダマスク、シルクスクリーンへ適用"
 
+#, fuzzy
 #~ msgid "Show 3D F&ootprints"
-#~ msgstr "3Dフットプリントを表示(&o)"
+#~ msgstr "フットプリントの表示"
 
+#, fuzzy
 #~ msgid "Show &Silkscreen Layer"
 #~ msgstr "シルクスクリーン レイヤを表示(&S)"
 
+#, fuzzy
 #~ msgid "Show &Comments and Drawings Layer"
-#~ msgstr "コメント/図面描画レイヤを表示(&C)"
+#~ msgstr "コメント/図形レイヤを表示(&C)"
 
+#, fuzzy
 #~ msgid "Show component 3D shapes"
-#~ msgstr "コンポーネントの3D形状を表示"
+#~ msgstr "コンポーネント名がありません。"
 
+#, fuzzy
 #~ msgid "File '%s' could not be created"
-#~ msgstr "ファイル '%s' を作成できません"
+#~ msgstr "ファイル '%s' を作成できませんでした。"
 
+#, fuzzy
 #~ msgid "Create a lib file for Eeschema"
-#~ msgstr "Eeschema 用 lib ファイルを作成"
+#~ msgstr "Eeschema のコンポーネント ライブラリ ファイルを作成"
 
+#, fuzzy
 #~ msgid "Create a footprint file for PcbNew"
-#~ msgstr "Pcbnew 用 フットプリント ファイルを作成"
+#~ msgstr "Pcbnew のフットプリント ファイルを作成"
 
+#, fuzzy
 #~ msgid "Equ file '%s' could not be found in the default search paths."
-#~ msgstr "Equファイル '%s' はデフォルトの検索パス中にありませんでした。"
+#~ msgstr "等価ファイル '%s' は、デフォルトの検索パスに見つかりませんでした。"
 
+#, fuzzy
 #~ msgid "Error opening equ file '%s'."
-#~ msgstr "Equファイル '%s' を開く際にエラーが発生しました。"
+#~ msgstr "等価ファイル '%s' の読込みエラー"
 
+#, fuzzy
 #~ msgid "Equ files Load Error"
-#~ msgstr "Equファイルの読み込みエラー"
+#~ msgstr "等価ファイルの読込みエラー"
 
+#, fuzzy
 #~ msgid "%d footprint/cmp equivalences found."
-#~ msgstr "%d フットプリント/コンポーネントの関連付けが見つかりました."
+#~ msgstr "%lu 等価なフットプリント/コンポーネント が見つかりました。"
 
+#, fuzzy
 #~ msgid "&CvPcb Manual"
-#~ msgstr "CvPcb マニュアル(&C)"
+#~ msgstr "CvPcb マニュアル(&M)"
 
+#, fuzzy
 #~ msgid "Open CvPcb manual"
 #~ msgstr "CvPcb マニュアルを開く"
 
+#, fuzzy
 #~ msgid "&About CvPcb"
-#~ msgstr "CvPcb について(&A)"
+#~ msgstr "Pcbnew について(&A)"
 
+#, fuzzy
 #~ msgid "About CvPcb footprint selector"
-#~ msgstr "CvPcb フットプリント セレクタについて"
+#~ msgstr "フットプリントの関連付けをインポート"
 
+#, fuzzy
 #~ msgid "Eesc&hema Manual"
-#~ msgstr "Eeschema マニュアル(&h)"
+#~ msgstr "Eeschema マニュアル(&M)"
 
+#, fuzzy
 #~ msgid "&Contents"
-#~ msgstr "目次(&C)"
+#~ msgstr "コンポーネント"
 
+#, fuzzy
 #~ msgid "Open the Eeschema manual"
 #~ msgstr "Eeschema マニュアルを開く"
 
+#, fuzzy
 #~ msgid "OK to change the existing file ?"
-#~ msgstr "既存のファイルを変更します。よろしいですか？"
+#~ msgstr "フットプリント フィルタの一覧を削除しますか?"
 
+#, fuzzy
 #~ msgid "Open the GerbView handbook"
-#~ msgstr "GerbView マニュアルを開く"
+#~ msgstr "Gerbview マニュアルを開く"
 
+#, fuzzy
 #~ msgid "&About GerbView"
-#~ msgstr "GerbView について(&A)"
+#~ msgstr "Pcbnew について(&A)"
 
+#, fuzzy
 #~ msgid "About GerbView gerber and drill viewer"
-#~ msgstr "GerbView ガーバー&ドリルデータビューアについて"
+#~ msgstr "GerbView - ガーバービューア"
 
+#, fuzzy
 #~ msgid "(%d bytes, compressed %d bytes)\n"
-#~ msgstr "(%d bytes, %d bytes 圧縮)\n"
+#~ msgstr "(%lu bytes, 圧縮後 %d bytes)\n"
 
+#, fuzzy
 #~ msgid "%s opened [pid=%ld]\n"
-#~ msgstr "%s の起動 [pid=%ld]\n"
+#~ msgstr "%s %sの開始 [pid=%ld]\n"
 
+#, fuzzy
 #~ msgid "&About Page Layout Editor"
-#~ msgstr "図枠エディタについて(&A)"
+#~ msgstr "図枠エディタ(Pl_Editor) を起動"
 
+#, fuzzy
 #~ msgid "About page layout description editor"
-#~ msgstr "図枠エディタについて"
+#~ msgstr "図枠ファイル"
 
+#, fuzzy
 #~ msgid "Unable to create file "
-#~ msgstr "ファイルを作成できません "
+#~ msgstr "ファイル %s を作成できません"
 
+#, fuzzy
 #~ msgid "Tracks, vias and pads are allowed. The keepout is useless"
-#~ msgstr "配線とビアの配置が可能です。禁止エリアではありません。"
+#~ msgstr "配線、ビア、パッドは許容されています。禁止領域は意味がありません。"
 
+#, fuzzy
 #~ msgid "No Tracks"
-#~ msgstr "配線禁止"
+#~ msgstr "配線なし"
 
+#, fuzzy
 #~ msgid "No Vias"
-#~ msgstr "ビア禁止"
+#~ msgstr "ビア数"
 
+#, fuzzy
 #~ msgid "No Copper Pour"
-#~ msgstr "塗りつぶし禁止"
+#~ msgstr "ベタパターン無し"
 
+#, fuzzy
 #~ msgid "Library Path (.pretty will be appended to folder)"
-#~ msgstr "ライブラリ パス (.pretty フォルダ)"
+#~ msgstr "ライブラリ フォルダ (.pretty が名前に付加されます。)"
 
+#, fuzzy
 #~ msgid ""
 #~ "invalid PFID in\n"
 #~ "file: <%s>\n"
 #~ "line: %d\n"
 #~ "offset: %d"
 #~ msgstr ""
-#~ "不正なPFIDが見つかりました: \n"
+#~ "不正な net ID が見つかりました: \n"
 #~ "ファイル:<%s>\n"
-#~ "%d 行目\n"
-#~ "%d 文字目"
+#~ "%d行目\n"
+#~ "%d文字目"
 
+#, fuzzy
 #~ msgid "Modules [%d items]"
-#~ msgstr "モジュール [%d アイテム]"
+#~ msgstr "フットプリント一覧 [%d のアイテム]"
 
+#, fuzzy
 #~ msgid ""
 #~ "Clean stubs, vias, delete break points, or connect dangling tracks to "
 #~ "pads and vias"
-#~ msgstr ""
-#~ "パッドやビアに接続している浮き配線、スタブ、ビア、ブレークポイントをクリア"
+#~ msgstr "スタブ、ビアのクリーン、切断点やパッドとビアへの未接続配線を削除"
 
+#, fuzzy
 #~ msgid "&Reset Footprint Field Sizes"
-#~ msgstr "フットプリント フィールドのサイズをリセット(&R)"
+#~ msgstr "フットプリント フィールドのサイズをセット(&r)"
 
+#, fuzzy
 #~ msgid ""
 #~ "Reset text size and width of all footprint fields to current defaults"
-#~ msgstr ""
-#~ "全フットプリントの定数の文字サイズ、文字太さを現在のデフォルト値にリセット"
+#~ msgstr "フットプリント フィールドのテキストのサイズと高さをセット"
 
+#, fuzzy
 #~ msgid "Open the Pcbnew handbook"
 #~ msgstr "Pcbnew マニュアルを開く"
 
+#, fuzzy
 #~ msgid "About Pcbnew printed circuit board designer"
-#~ msgstr "Pcbnew プリント基板デザイナーについて"
+#~ msgstr "Pcbnew - プリント基板エディタ"
 
+#, fuzzy
 #~ msgid ""
 #~ "invalid PFID in\n"
 #~ "file: <%s>\n"
 #~ "line: %d"
 #~ msgstr ""
-#~ "不正なPFIDが見つかりました: \n"
-#~ "ファイル:<%s>\n"
-#~ "%d行目"
+#~ "不正なフットプリント ID \n"
+#~ "ファイル: <%s>\n"
+#~ "行: %d"
 
+#, fuzzy
 #~ msgid "Footprint Wizards"
-#~ msgstr "フットプリント ウイザード"
+#~ msgstr "フットプリント ウィザード"
 
+#, fuzzy
 #~ msgid "Redraw the screen of the board"
-#~ msgstr "スクリーン上のボードを再描画"
+#~ msgstr "現在のスクリーンを再描画"
 
+#, fuzzy
 #~ msgid ""
 #~ "Show/hide the toolbar for microwave tools\n"
 #~ "This is a experimental feature (under development)"
@@ -22934,220 +22991,281 @@ msgstr "DXFファイルのインポート"
 #~ "高周波設計支援ツールバーの表示/非表示\n"
 #~ "これは将来に向けた開発中の機能です"
 
+#, fuzzy
 #~ msgid "Select wizard to use"
-#~ msgstr "参照するウィザードの選択"
+#~ msgstr "参照するライブラリの選択"
 
+#, fuzzy
 #~ msgid "Select previous editable item"
-#~ msgstr "前の編集可能アイテムを選択"
+#~ msgstr "前のパラメータ ページを選択"
 
+#, fuzzy
 #~ msgid "Select next editable item"
-#~ msgstr "次の編集可能アイテムを選択"
+#~ msgstr "次のパラメータ ページを選択"
 
+#, fuzzy
 #~ msgid "Add footprint to board"
-#~ msgstr "ボードへフットプリントを挿入"
+#~ msgstr "フットプリントを追加"
 
+#, fuzzy
 #~ msgid "New footprint using wizard"
-#~ msgstr "ウィザードを使用して新規フットプリントを作成"
+#~ msgstr "新しいフットプリントにフットプリント ウィザードを使用"
 
+#, fuzzy
 #~ msgid "Tracks and vias:"
-#~ msgstr "配線とビア"
+#~ msgstr "配線とビア:"
 
+#, fuzzy
 #~ msgid "Tracks sketch mode"
-#~ msgstr "配線をスケッチモードで表示"
+#~ msgstr "スケッチモードでテキストを表示"
 
+#, fuzzy
 #~ msgid "Vias sketch mode"
-#~ msgstr "ビアをスケッチモードで表示"
+#~ msgstr "スケッチモードでパッドを描画"
 
+#, fuzzy
 #~ msgid ""
 #~ "Show (or not) via holes.\n"
 #~ "If Defined Holes is selected, only the non default size holes are shown"
 #~ msgstr ""
-#~ "ビア穴の表示設定\n"
-#~ "\"定義された穴のみ\"を選択した場合、デフォルト径以外の穴のみ表示します"
+#~ "ビア(穴)の表示または非表示、\n"
+#~ "定義済の穴が選択された場合、デフォルトサイズ以外の穴のみを表示する。"
 
+#, fuzzy
 #~ msgid "Routing help:"
-#~ msgstr "配線のヘルプ:"
+#~ msgstr "ルーティング ヘルプ:"
 
+#, fuzzy
 #~ msgid "Show or not net names on pads and/or tracks"
-#~ msgstr "パッド/配線のネット名を表示/非表示"
+#~ msgstr "パッドや配線のネット名の表示または非表示"
 
+#, fuzzy
 #~ msgid "Show Tracks Clearance:"
-#~ msgstr "配線クリアランスの表示 "
+#~ msgstr "配線のクリアランスを表示:"
 
+#, fuzzy
 #~ msgid ""
 #~ "Show( or not) tracks clearance area.\n"
 #~ "If New track is selected,  track clearance area is shown only when "
 #~ "creating the track."
 #~ msgstr ""
-#~ "配線のクリアランス エリアの表示設定\n"
-#~ "新しい配線が選択された場合、クリアランス エリアは配線が作成されたときのみ"
-#~ "表示されます"
+#~ "配線とビアのクリアランス エリアの表示または非表示\n"
+#~ "新しい配線が選択された場合、配線のクリアランス エリアは布線された時のみ表"
+#~ "示される。"
 
+#, fuzzy
 #~ msgid "Outlines sketch mode"
-#~ msgstr "外形をスケッチモードで表示"
+#~ msgstr "スケッチモードで外形を表示"
 
+#, fuzzy
 #~ msgid "Pads sketch mode"
-#~ msgstr "パッドをスケッチモードで表示"
+#~ msgstr "スケッチモードでパッドを描画"
 
+#, fuzzy
 #~ msgid "Show pad NoConnect"
-#~ msgstr "未接続パッドの表示"
+#~ msgstr "パッド番号を表示"
 
+#, fuzzy
 #~ msgid "Others:"
-#~ msgstr "その他"
+#~ msgstr "その他:"
 
+#, fuzzy
 #~ msgid "Auto Adjust"
-#~ msgstr "自動設定"
+#~ msgstr "自動幅"
 
 #~ msgid "X ref:"
 #~ msgstr "X ref:"
 
+#, fuzzy
 #~ msgid "Clear Board"
-#~ msgstr "ボードをクリア"
+#~ msgstr "基板のクリア"
 
+#, fuzzy
 #~ msgid "Start point X"
-#~ msgstr "始点 X"
+#~ msgstr "始点 X:"
 
+#, fuzzy
 #~ msgid "Start point Y"
-#~ msgstr "始点 Y"
+#~ msgstr "始点 Y:"
 
+#, fuzzy
 #~ msgid "End point X"
-#~ msgstr "終点 X"
+#~ msgstr "終点 X:"
 
+#, fuzzy
 #~ msgid "End point Y"
-#~ msgstr "終点 Y"
+#~ msgstr "終点 Y:"
 
+#, fuzzy
 #~ msgid "Graphic segm Width"
-#~ msgstr "図形セグメントの幅"
+#~ msgstr "グラフィック セグメント幅:"
 
+#, fuzzy
 #~ msgid "Board Edges Width"
-#~ msgstr "ボード エッジの幅"
+#~ msgstr "基板の輪郭線幅:"
 
+#, fuzzy
 #~ msgid "Copper Text Width"
 #~ msgstr "テキストの幅"
 
+#, fuzzy
 #~ msgid "Text Size V"
-#~ msgstr "テキストの縦幅"
+#~ msgstr "テキスト サイズの設定"
 
+#, fuzzy
 #~ msgid "Text Size H"
-#~ msgstr "テキストの横幅"
+#~ msgstr "テキスト サイズの設定"
 
+#, fuzzy
 #~ msgid "Edges Width"
 #~ msgstr "エッジの幅"
 
+#, fuzzy
 #~ msgid "Circular shape"
-#~ msgstr "円形シェイプ"
+#~ msgstr "円形穴"
 
+#, fuzzy
 #~ msgid "Oval shape"
-#~ msgstr "楕円形シェイプ"
+#~ msgstr "楕円穴"
 
+#, fuzzy
 #~ msgid "Rectangular shape"
-#~ msgstr "長方形シェイプ"
+#~ msgstr "四角"
 
+#, fuzzy
 #~ msgid "Trapezoidal shape"
-#~ msgstr "台形シェイプ"
+#~ msgstr "台形"
 
+#, fuzzy
 #~ msgid "Trap. delta dim:"
-#~ msgstr "台形作成時の短辺長:"
+#~ msgstr "台形のデルタ:"
 
+#, fuzzy
 #~ msgid "Trap. direction:"
-#~ msgstr "台形作成時の方向:"
+#~ msgstr "台形の方向:"
 
+#, fuzzy
 #~ msgid "Position X"
-#~ msgstr "ポジション X"
+#~ msgstr "X位置:"
 
+#, fuzzy
 #~ msgid "Position Y"
-#~ msgstr "ポジション Y"
+#~ msgstr "Y位置:"
 
+#, fuzzy
 #~ msgid "Polyline at (%s, %s) with %zu points"
-#~ msgstr "ポリライン (%s, %s)  %zu 個の構成点"
+#~ msgstr "ポリライン (%s, %s)  %d ポイント"
 
+#, fuzzy
 #~ msgid ""
 #~ "Select one of %zu components to delete\n"
 #~ "from library '%s'."
 #~ msgstr ""
-#~ "削除するコンポーネント(1 of %zu )を選択\n"
-#~ "(ライブラリ '%s' )."
+#~ "削除する %d コンポーネントの一つを選択\n"
+#~ "(ライブラリ '%s' から)"
 
+#, fuzzy
 #~ msgid "Net count = %zu"
-#~ msgstr "ネット数 = %zu"
+#~ msgstr "ネット数 = %d"
 
+#, fuzzy
 #~ msgid "No Connect Symbol"
-#~ msgstr "空き端子フラグ"
+#~ msgstr "未接続シンボル"
 
+#, fuzzy
 #~ msgid "Erc warning"
 #~ msgstr "ERC 警告"
 
+#, fuzzy
 #~ msgid "Erc error"
 #~ msgstr "ERC エラー"
 
+#, fuzzy
 #~ msgid ""
 #~ "Warning:\n"
 #~ "Some items have the same color as the background\n"
 #~ "and they will not be seen on screen"
 #~ msgstr ""
-#~ "警告:\n"
-#~ "いくつかのアイテムが背景色と同色です\n"
-#~ "それらは画面上で見えないかもしれません"
+#~ "いくつかのアイテムは背景色と同じ色となっており、\n"
+#~ "画面上で見えなくなります。本当に\n"
+#~ "これらの色を使用してもよろしいですか？"
 
+#, fuzzy
 #~ msgid "Check for cache/library conflicts at schematic load"
-#~ msgstr "回路図の読込み時にキャッシュ/ライブラリの衝突をチェック"
+#~ msgstr "回路図を読み込む時に キャッシュ/ライブラリ の衝突を判定"
 
+#, fuzzy
 #~ msgid "Texts and Drawings"
-#~ msgstr "テキストと図形"
+#~ msgstr "テキストと図形(&X)"
 
 #~ msgid "No Modules!"
 #~ msgstr "モジュールがありません！"
 
+#, fuzzy
 #~ msgid "Change modules %s -> %s ?"
-#~ msgstr "モジュールを変更しますか？ %s → %s"
+#~ msgstr "フットプリントを変更しますか？ %s → %s"
 
 #~ msgid "Change ALL modules ?"
 #~ msgstr "全てのモジュールを変更しますか？"
 
+#, fuzzy
 #~ msgid "Save Component Files"
-#~ msgstr "コンポーネント ファイルの保存"
+#~ msgstr "コンポーネント %s を移動"
 
+#, fuzzy
 #~ msgid "Size X"
-#~ msgstr "サイズ X"
+#~ msgstr "サイズ X:"
 
+#, fuzzy
 #~ msgid "Size Y"
-#~ msgstr "サイズ Y"
+#~ msgstr "サイズ Y:"
 
+#, fuzzy
 #~ msgid "Change same footprint"
-#~ msgstr "同じフットプリントを変更"
+#~ msgstr "フットプリントの変更"
 
+#, fuzzy
 #~ msgid "Change all"
-#~ msgstr "全てを変更"
+#~ msgstr "変更"
 
+#, fuzzy
 #~ msgid "Export .cmp List"
-#~ msgstr ".cmpファイルへエクスポート"
+#~ msgstr "コンポーネントのエクスポート"
 
+#, fuzzy
 #~ msgid "Browse FP List"
-#~ msgstr "フットプリント一覧の表示"
+#~ msgstr "ファイルを開く"
 
+#, fuzzy
 #~ msgid "FP Viewer"
-#~ msgstr "フットプリントビューアを開く"
+#~ msgstr "PDFビューア(&P)"
 
+#, fuzzy
 #~ msgid "Create .dsn File and Launch FreeRouter"
-#~ msgstr ".dsnファイルを生成し、FreeRouterを起動します"
+#~ msgstr "Specctra Design 形式で出力し、Freerouter を起動"
 
+#, fuzzy
 #~ msgid "Create .dsn File"
-#~ msgstr ".dsnファイルの作成"
+#~ msgstr "SVGファイル作成(&V)"
 
+#, fuzzy
 #~ msgid "Polar"
-#~ msgstr "極座標系"
+#~ msgstr "極性"
 
 #~ msgid "Use legacy zone filling algorithm"
 #~ msgstr "ゾーンの塗りつぶしに古いアルゴリズムを使用する"
 
+#, fuzzy
 #~ msgid "Text size V"
-#~ msgstr "テキストの縦幅"
+#~ msgstr "テキスト ファイル ("
 
+#, fuzzy
 #~ msgid "Text size H"
-#~ msgstr "テキストの横幅"
+#~ msgstr "テキスト ファイル ("
 
+#, fuzzy
 #~ msgid "Display all messages"
-#~ msgstr "全てのメッセージを表示"
+#~ msgstr "ローカル ラッツネストの表示"
 
 #~ msgid ""
 #~ "Messages filter:\n"
@@ -23159,35 +23277,39 @@ msgstr "DXFファイルのインポート"
 #~ "します。\n"
 #~ "チェックされていない場合: 警告とエラーメッセージのみが表示されます。"
 
+#, fuzzy
 #~ msgid ""
 #~ "VRML Export Failed:\n"
 #~ "Could not add outline to contours."
 #~ msgstr ""
-#~ "VRMLエクスポートエラー:\n"
-#~ "外形を追加することが出来ませんでした。"
+#~ "VRMLファイル出力エラー:\n"
+#~ "外形へ穴を追加できませんでした。"
 
+#, fuzzy
 #~ msgid "Right top corner"
-#~ msgstr "右上角"
+#~ msgstr "ページの右上角"
 
 #~ msgid "Middle"
 #~ msgstr "中間点"
 
 # orペア下層
+#, fuzzy
 #~ msgid "Right bottom corner"
-#~ msgstr "左下の角"
+#~ msgstr "ページの右下角"
 
+#, fuzzy
 #~ msgid "Board layer for import:"
-#~ msgstr "インポートするボードレイヤ:"
+#~ msgstr "使用するレイヤ:"
 
+#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ " >> Errors ERC: %d\n"
-#~ msgstr ""
-#~ "\n"
-#~ " > > ERCエラー: %d\n"
+#~ msgstr " >>エラー\n"
 
+#, fuzzy
 #~ msgid "Default &bus width:"
-#~ msgstr "デフォルトのバス線幅(&B):"
+#~ msgstr "デフォルトの線幅(&D):"
 
 #~ msgid "Repeat draw item &horizontal displacement:"
 #~ msgstr "アイテムを水平方向にリピート(&H)"
@@ -23195,47 +23317,61 @@ msgstr "DXFファイルのインポート"
 #~ msgid "Repeat draw item &vertical displacement:"
 #~ msgstr "アイテムを垂直方向にリピート(&V)"
 
+#, fuzzy
 #~ msgid "&Repeat label increment:"
-#~ msgstr "ラベルのカウントアップリピート(&R):"
+#~ msgstr "パラメータの繰り返し:"
 
+#, fuzzy
 #~ msgid "Show gr&id"
 #~ msgstr "グリッドの表示"
 
+#, fuzzy
 #~ msgid "Show hi&dden pins"
-#~ msgstr "非表示ピンの表示 (&D)"
+#~ msgstr "非表示ピンを表示"
 
+#, fuzzy
 #~ msgid "Do not center and &warp cursor on zoom"
-#~ msgstr "拡大縮小時にカーソルを中心へ移動させない(&W)"
+#~ msgstr "拡大縮小時にカーソルを中心へ移動させない"
 
+#, fuzzy
 #~ msgid "Use &middle mouse button to pan"
-#~ msgstr "マウスの中ボタンを、画面のパンに利用する"
+#~ msgstr "画面のパンにマウスの中ボタンを使う"
 
+#, fuzzy
 #~ msgid "Show p&age limits"
-#~ msgstr "ページの境界を表示(&A)"
+#~ msgstr "ページの境界を表示"
 
+#, fuzzy
 #~ msgid "25"
-#~ msgstr "25"
+#~ msgstr "5"
 
+#, fuzzy
 #~ msgid "Current graphic &line width:"
-#~ msgstr "現在の図形ライン幅(&L) :"
+#~ msgstr "図形ライン幅(&G)"
 
+#, fuzzy
 #~ msgid "Current graphic text &size:"
-#~ msgstr "現在の図形テキストサイズ(&S):"
+#~ msgstr "現在の用紙サイズ"
 
+#, fuzzy
 #~ msgid "Current &pin lenght:"
-#~ msgstr "現在のピンの長さ(&P)"
+#~ msgstr "現在のネット:"
 
+#, fuzzy
 #~ msgid "Current pin name size:"
-#~ msgstr "現在のピン名サイズ:"
+#~ msgstr "現在の用紙サイズ"
 
+#, fuzzy
 #~ msgid "Current pin number size:"
-#~ msgstr "現在のピン番号サイズ:"
+#~ msgstr "デフォルトのピン番号サイズ(&f): "
 
+#, fuzzy
 #~ msgid "&Repeat pin number increment:"
-#~ msgstr "ピン番号をカウントアップリピート(&R):"
+#~ msgstr "デフォルトのピン番号サイズ(&f): "
 
+#, fuzzy
 #~ msgid "Save as Default"
-#~ msgstr "標準設定として保存"
+#~ msgstr "デフォルトに設定"
 
 #~ msgid "Repeat pin displacement"
 #~ msgstr "ピンの置換をリピート"
@@ -23254,10 +23390,10 @@ msgstr "DXFファイルのインポート"
 #~ msgstr "<br>内層 : <b>K = 0.024</b></br>"
 
 #~ msgid "<br>External traces: <b>K = 0.048</b></br>"
-#~ msgstr "<br>外層: <b>K = 0.048</b></br>"
+#~ msgstr "<br>外層 : <b>K = 0.048</b></br>"
 
 #~ msgid "<br>where:</br>"
-#~ msgstr "<br>場所:</br>"
+#~ msgstr "<br>場所 : </br>"
 
 #~ msgid "Z0e (Zdiff)"
 #~ msgstr "Z0e (Zdiff)"
@@ -23279,14 +23415,16 @@ msgstr "DXFファイルのインポート"
 #~ "最大幅は400mil(10.16mm)\n"
 #~ "最大温度上昇は100℃です."
 
+#, fuzzy
 #~ msgid "Cu thickness"
-#~ msgstr "銅箔厚"
+#~ msgstr "太さ"
 
 #~ msgid "Track Characteristics (External Layers):"
 #~ msgstr "配線の特性（外層）:"
 
+#, fuzzy
 #~ msgid "Required trace width"
-#~ msgstr "必要な配線幅"
+#~ msgstr "最小配線幅"
 
 #~ msgid "Loss"
 #~ msgstr "損失"
@@ -23294,90 +23432,112 @@ msgstr "DXFファイルのインポート"
 #~ msgid "Track Characteristics (Internal Layers):"
 #~ msgstr "配線の特性（内層）:"
 
+#, fuzzy
 #~ msgid "Import DXF file"
 #~ msgstr "DXFファイルのインポート"
 
+#, fuzzy
 #~ msgid "CvPcb - Associate footprint to components"
-#~ msgstr "CvPcb - コンポーネントとフットプリントの関連付け設定"
+#~ msgstr "CvPcb (コンポーネントとフットプリントの関連付け) の実行"
 
+#, fuzzy
 #~ msgid "Quit KiCad"
-#~ msgstr "KiCadの終了"
+#~ msgstr "KiCad について"
 
+#, fuzzy
 #~ msgid "(Default)"
-#~ msgstr "(標準)"
+#~ msgstr "標準"
 
+#, fuzzy
 #~ msgid "Quit Pcbnew"
-#~ msgstr "PCBNewを終了"
+#~ msgstr "プリント基板エディタ(Pcbnew) を起動"
 
+#, fuzzy
 #~ msgid "Design Rules"
-#~ msgstr "デザインルール"
+#~ msgstr "デザインルール(&D)"
 
+#, fuzzy
 #~ msgid "&Route"
-#~ msgstr "配線(&R)"
+#~ msgstr "&Freerouter"
 
+#, fuzzy
 #~ msgid "Cannot open file %s for reading."
-#~ msgstr "読み込み用にファイル %s を開けません。"
+#~ msgstr "読み込み用にファイル '%s' を開けません。"
 
+#, fuzzy
 #~ msgid "x Count:"
-#~ msgstr "横(X)方向の数:"
+#~ msgstr "数:"
 
+#, fuzzy
 #~ msgid "y Count:"
-#~ msgstr "縦(Y)方向の数:"
+#~ msgstr "数:"
 
+#, fuzzy
 #~ msgid "x Spacing:"
-#~ msgstr "横(X)方向の間隔:"
+#~ msgstr "間隔 (s):"
 
+#, fuzzy
 #~ msgid "y Spacing:"
-#~ msgstr "縦(Y)方向の間隔:"
+#~ msgstr "間隔 (s):"
 
+#, fuzzy
 #~ msgid "x Offset:"
-#~ msgstr "横(X)オフセット:"
+#~ msgstr "オフセット X"
 
+#, fuzzy
 #~ msgid "y Offset:"
-#~ msgstr "縦(Y)オフセット:"
+#~ msgstr "オフセット X"
 
+#, fuzzy
 #~ msgid "x Centre:"
-#~ msgstr "X軸中心:"
+#~ msgstr "中央"
 
+#, fuzzy
 #~ msgid "y Centre:"
-#~ msgstr "Y軸中心:"
+#~ msgstr "中央"
 
+#, fuzzy
 #~ msgid "User"
-#~ msgstr "ユーザ"
+#~ msgstr "ユーザ グリッド"
 
 #~ msgid "Rebuild .cmp List"
 #~ msgstr ".cmpファイルの再構築"
 
+#, fuzzy
 #~ msgid "Plot: %s OK\n"
-#~ msgstr "プロット: %s OK\n"
+#~ msgstr "プロット: '%s' OK.\n"
 
+#, fuzzy
 #~ msgid "HPGL plot files (.plt)|*.plt"
-#~ msgstr "HPGLプロット ファイル (.plt)|*.plt"
+#~ msgstr "レポートファイル (.rpt)|*.rpt"
 
+#, fuzzy
 #~ msgid "Gerber files (.pho)|*.pho"
 #~ msgstr "ガーバー ファイル (.pho)|*.pho)"
 
+#, fuzzy
 #~ msgid "DXF files (.dxf)|*.dxf"
-#~ msgstr "DXFファイル (.dxf)|*.dxf"
+#~ msgstr "IDFv3 コンポーネントファイル (*.idf)|*.idf"
 
 #, fuzzy
 #~ msgid "Using component footprint link file \"%s\".\n"
 #~ msgstr ""
-#~ "コンポーネントとフットプリントの関連付けファイル \"%s\" を利用します"
+#~ "コンポーネントとフットプリントの関連付けファイル '%s' が開けませんでした"
 
 #, fuzzy
 #~ msgid "Using time stamps to select footprints in file \"%s\".\n"
-#~ msgstr ""
-#~ "コンポーネントとフットプリントの関連付けファイル \"%s\" を利用します"
+#~ msgstr "コンポーネントとフットプリントの関連付けにタイムスタンプを使用\n"
 
+#, fuzzy
 #~ msgid "From netlist"
-#~ msgstr "ネットリスト"
+#~ msgstr "ネットリストの読込み"
 
 #~ msgid "From separate .cmp file"
 #~ msgstr "外部の.cmpファイル"
 
+#, fuzzy
 #~ msgid "Footprint Name Source"
-#~ msgstr "フットプリントの命名元"
+#~ msgstr "フットプリント レイヤ"
 
 #~ msgid ""
 #~ "Source of footprints names for component:\n"
@@ -23390,20 +23550,24 @@ msgstr "DXFファイルのインポート"
 #~ "要があります)\n"
 #~ "- (CvPcbにより生成された)外部の.cmpファイル"
 
+#, fuzzy
 #~ msgid "** Unable to create '%s'**\n"
-#~ msgstr "** '%s' が生成できませんでした ***\n"
+#~ msgstr "** %s が作成できません **\n"
 
 #~ msgid "Settings are incorrect"
 #~ msgstr "不正な設定です"
 
+#, fuzzy
 #~ msgid "Footprint count %d\n"
-#~ msgstr "フットプリント数 %d\n"
+#~ msgstr "フットプリント %s - %s"
 
+#, fuzzy
 #~ msgid "Custom Track Width"
-#~ msgstr "カスタム配線幅"
+#~ msgstr "カスタム配線幅:"
 
+#, fuzzy
 #~ msgid " (from netclass)"
-#~ msgstr "(ネットクラスを使う)"
+#~ msgstr "(ネットクラス)"
 
 #~ msgid "Not implemented yet."
 #~ msgstr "未だ実装されていません。"
@@ -23415,64 +23579,78 @@ msgstr "DXFファイルのインポート"
 #~ "幾つかのアイテムはアノテートされません。\n"
 #~ "回路図をアノテートしますか？"
 
+#, fuzzy
 #~ msgid "Unable to create '%s'\n"
-#~ msgstr "'%s' を作成できません\n"
+#~ msgstr "'%s' を作成できません"
 
+#, fuzzy
 #~ msgid "Plot: <%s> OK\n"
-#~ msgstr "プロット: <%s> 完了\n"
+#~ msgstr "プロット: '%s' OK.\n"
 
+#, fuzzy
 #~ msgid "Error creating file '%s'\n"
-#~ msgstr "ファイル'%s'生成中にエラーが発生しました\n"
+#~ msgstr "ファイル '%s' 生成時エラー"
 
+#, fuzzy
 #~ msgid "File '%s' OK\n"
-#~ msgstr "ファイル <%s> OK\n"
+#~ msgstr "プロット: '%s' OK.\n"
 
+#, fuzzy
 #~ msgid "Unable to create <%s>\n"
-#~ msgstr "<%s> を作成できません\n"
+#~ msgstr "<%s> を作成できません"
 
+#, fuzzy
 #~ msgid "Edit document file"
-#~ msgstr "ドキュメント ファイルの編集"
+#~ msgstr "ローカル ファイルの編集"
 
+#, fuzzy
 #~ msgid "Automatically close this dialog"
-#~ msgstr "ダイアログを自動的に閉じる"
+#~ msgstr "パッドの自動配線"
 
 #~ msgid "Problem when saving file, exit anyway ?"
 #~ msgstr "ファイル保存中に問題が発生しました。このまま終了しますか？"
 
+#, fuzzy
 #~ msgid "Open Net List"
-#~ msgstr "ネットリストを開く"
+#~ msgstr "テキスト エディタ(&D)"
 
+#, fuzzy
 #~ msgid "Project: '%s'  (netlist: '%s')"
-#~ msgstr "プロジェクト: '%s'  (ネットリスト: '%s')"
+#~ msgstr "プロジェクトファイル: '%s'"
 
 #~ msgid "Unknown netlist format."
 #~ msgstr "不明なネットリストフォーマット。"
 
+#, fuzzy
 #~ msgid "&Open Netlist"
-#~ msgstr "ネットリストを開く(&O)"
+#~ msgstr "ネットリスト(&N)"
 
+#, fuzzy
 #~ msgid "Open recent netlist"
-#~ msgstr "最近開いたネットリストを開く"
+#~ msgstr "ネットリストの生成"
 
 #~ msgid "Save Cmp File &As...\tCtrl+Shift+S"
 #~ msgstr "名前を付けてCmpファイルを保存...(&A)\tCtrl+Shift+S"
 
+#, fuzzy
 #~ msgid "Quit CvPcb"
-#~ msgstr "CvPcbの終了"
+#~ msgstr "CvPcb の実行"
 
+#, fuzzy
 #~ msgid "Save Component Footprint Link File"
-#~ msgstr "コンポーネント-フットプリントの関連付けファイルの保存"
+#~ msgstr "コンポーネントとフットプリントの関連付けファイルの読み込み"
 
+#, fuzzy
 #~ msgid "Unable to create component footprint link file '%s'"
 #~ msgstr ""
-#~ "コンポーネント-フットプリントの関連付けファイル '%s' が作成出来ませんでし"
-#~ "た"
+#~ "コンポーネントとフットプリントの関連付けファイル '%s' が開けませんでした"
 
 #~ msgid "E&xit"
 #~ msgstr "終了 (&X)"
 
+#, fuzzy
 #~ msgid "Quit GerbView"
-#~ msgstr "GerbViewの終了"
+#~ msgstr "ガーバビューア(GerbView) を起動"
 
 #~ msgid "<-"
 #~ msgstr "<-"
@@ -23483,14 +23661,17 @@ msgstr "DXFファイルのインポート"
 #~ msgid "MurC"
 #~ msgstr "MurC"
 
+#, fuzzy
 #~ msgid "Quit Pl_Editor"
-#~ msgstr "図枠エディタの終了"
+#~ msgstr "コンポーネント ライブラリ エディタの終了"
 
+#, fuzzy
 #~ msgid "&About Pl_Editor"
-#~ msgstr "図枠エディタについて(&A)"
+#~ msgstr "テキスト エディタ(&T)"
 
+#, fuzzy
 #~ msgid "Position Files:"
-#~ msgstr "ポジション ファイル:"
+#~ msgstr "X位置:"
 
 #, fuzzy
 #~ msgid "Allows to specify any track/via size"
@@ -23500,12 +23681,14 @@ msgstr "DXFファイルのインポート"
 #~ msgid "Route using the width of the starting track"
 #~ msgstr "配線開始時の配線幅でルーティングを行う。"
 
+#, fuzzy
 #~ msgid "Open netlist file"
-#~ msgstr "ネットリストファイルを開く"
+#~ msgstr "ネットリスト ファイルの保存"
 
+#, fuzzy
 #~ msgid "Save component/footprint link file (.cmp file)"
-#~ msgstr "コンポーネント-フットプリント関連付けファイル(.cmp)を保存"
+#~ msgstr "コンポーネント-フットプリント関連付けファイル (*.cmp)|*.cmp"
 
+#, fuzzy
 #~ msgid "Save component/footprint link file (.cmp file) with new name"
-#~ msgstr ""
-#~ "名前をつけてコンポーネント-フットプリント関連付けファイル(.cmp)を保存"
+#~ msgstr "コンポーネント-フットプリント関連付けファイル (*.cmp)|*.cmp"
