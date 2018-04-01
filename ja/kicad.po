@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-28 22:53+0900\n"
-"PO-Revision-Date: 2018-03-11 17:44+0900\n"
-"Last-Translator: starfort_jp <starfort@nifty.com>\n"
+"PO-Revision-Date: 2018-04-01 15:16+0900\n"
+"Last-Translator: asukiaaa <asukiaaa@gmail.com>\n"
 "Language-Team: kicad_jp <kicad@kicad.jp>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
@@ -555,9 +555,8 @@ msgid "Redraw view"
 msgstr "ビューを再描画"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:87
-#, fuzzy
 msgid "Zoom to fit 3D model"
-msgstr "スクリーン上の基板に合わせてズーム"
+msgstr "3D モデルに合わせてズーム"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:92
 msgid "Rotate X <-"
@@ -1895,15 +1894,15 @@ msgstr "web上のKiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:132
 msgid "The official KiCad website - "
-msgstr ""
+msgstr "KiCad 公式 web サイト -"
 
 #: common/dialog_about/AboutDialog_main.cpp:136
 msgid "Developer website on Launchpad - "
-msgstr ""
+msgstr "Launchpad の開発者向け web サイト -"
 
 #: common/dialog_about/AboutDialog_main.cpp:141
 msgid "Official KiCad library repositories - "
-msgstr ""
+msgstr "KiCad 公式ライブラリのリポジトリ -"
 
 #: common/dialog_about/AboutDialog_main.cpp:148
 msgid "Bug tracker"
@@ -1911,21 +1910,19 @@ msgstr "バグ トラッカー"
 
 #: common/dialog_about/AboutDialog_main.cpp:154
 msgid "Report or examine bugs - "
-msgstr ""
+msgstr "バグ 報告・管理 -"
 
 #: common/dialog_about/AboutDialog_main.cpp:161
 msgid "KiCad user's groups and community"
 msgstr "KiCad ユーザー グループとコミュニティ"
 
 #: common/dialog_about/AboutDialog_main.cpp:166
-#, fuzzy
 msgid "KiCad forum - "
-msgstr "KiCad エラー"
+msgstr "KiCad フォーラム -"
 
 #: common/dialog_about/AboutDialog_main.cpp:171
-#, fuzzy
 msgid "KiCad user's group - "
-msgstr "KiCad ユーザー グループとコミュニティ"
+msgstr "KiCad ユーザー グループ -"
 
 #: common/dialog_about/AboutDialog_main.cpp:185
 msgid "The complete KiCad EDA Suite is released under the"
@@ -2031,9 +2028,8 @@ msgid "Redraw View"
 msgstr "ビューを再描画"
 
 #: common/zoom.cpp:281 pagelayout_editor/menubar.cpp:140
-#, fuzzy
 msgid "Zoom to Fit"
-msgstr "ズーム アウト"
+msgstr "合わせてズーム"
 
 #: common/zoom.cpp:300
 msgid "Zoom: "
@@ -2819,9 +2815,8 @@ msgid "Image Scale:"
 msgstr "画像の倍率:"
 
 #: common/dialogs/dialog_text_entry_base.cpp:22
-#, fuzzy
 msgid "MyLabel"
-msgstr "ラベル"
+msgstr "マイラベル"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:28
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:36
@@ -3501,7 +3496,6 @@ msgid "Image Editor"
 msgstr "イメージ エディター"
 
 #: cvpcb/cvpcb_mainframe.cpp:260
-#, fuzzy
 msgid ""
 "Component to Footprint links modified.\n"
 "Save before exit?"
@@ -3558,9 +3552,8 @@ msgid "library"
 msgstr "ライブラリー"
 
 #: cvpcb/cvpcb_mainframe.cpp:702
-#, fuzzy
 msgid "search text"
-msgstr "テキストを配置"
+msgstr "テキストを検索"
 
 #: cvpcb/cvpcb_mainframe.cpp:706
 msgid "No filtering"
@@ -3574,7 +3567,7 @@ msgstr "フィルター: %s"
 #: cvpcb/cvpcb_mainframe.cpp:722
 #, c-format
 msgid "Description: %s;  Key words: %s"
-msgstr ""
+msgstr "詳細: %s; キーワード: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:738
 msgid ""
@@ -3593,7 +3586,7 @@ msgstr "フットプリント ライブラリーをロード中"
 
 #: cvpcb/cvpcb_mainframe.cpp:764
 msgid "Cvpcb"
-msgstr ""
+msgstr "Cvpcb"
 
 #: cvpcb/cvpcb_mainframe.cpp:766 eeschema/sch_edit_frame.cpp:1492
 #: kicad/prjconfig.cpp:87 pcbnew/footprint_edit_frame.cpp:802
@@ -3602,22 +3595,21 @@ msgid " [Read Only]"
 msgstr " [読み取り専用]"
 
 #: cvpcb/cvpcb_mainframe.cpp:814
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error loading schematic.\n"
 "%s"
 msgstr ""
-"回路図ロード中のエラー \"%s\"\n"
+"回路図ロード中のエラー\n"
 "%s"
 
 #: cvpcb/menubar.cpp:65
-#, fuzzy
 msgid "&Save Schematic\tCtrl+S"
-msgstr "回路図を保存"
+msgstr "回路図を保存 (&S)\tCtrl+S"
 
 #: cvpcb/menubar.cpp:73
 msgid "Manage Footprint &Libraries..."
-msgstr "フットプリント ライブラリーを管理(&L)..."
+msgstr "フットプリント ライブラリーを管理 (&L)..."
 
 #: cvpcb/menubar.cpp:73
 msgid "Manage footprint libraries"
@@ -3625,7 +3617,7 @@ msgstr "フットプリント ライブラリーを管理"
 
 #: cvpcb/menubar.cpp:79 eeschema/menubar.cpp:692
 msgid "Configure &Paths..."
-msgstr "パスを設定(&P)..."
+msgstr "パスを設定 (&P)..."
 
 #: cvpcb/menubar.cpp:80 eeschema/menubar.cpp:693 kicad/menubar.cpp:347
 #: pcbnew/menubar_pcb_editor.cpp:349 pcbnew/menubar_footprint_editor.cpp:451
@@ -3634,7 +3626,7 @@ msgstr "パス設定の環境変数を編集"
 
 #: cvpcb/menubar.cpp:85
 msgid "Footprint &Association Files..."
-msgstr "フットプリント関連付けファイル(&A)..."
+msgstr "フットプリント関連付けファイル (&A)..."
 
 #: cvpcb/menubar.cpp:86
 msgid ""
@@ -3871,9 +3863,8 @@ msgid "Redraw view (F3)"
 msgstr "ビューを再描画 (F3)"
 
 #: cvpcb/display_footprints_frame.cpp:243
-#, fuzzy
 msgid "Zoom to fit footprint (Home)"
-msgstr "自動ズーム (Home)"
+msgstr "フットプリントに合わせてズーム (Home)"
 
 #: cvpcb/display_footprints_frame.cpp:247
 msgid "3D Display (Alt+3)"
@@ -4324,11 +4315,11 @@ msgstr ""
 "異なるフットプリントが同じコンポーネントの別ユニットに割り当てられました"
 
 #: eeschema/drc_erc_item.cpp:64
-#, fuzzy
 msgid ""
 "Different net assigned to a shared pin in another unit of the same component"
 msgstr ""
-"異なるフットプリントが同じコンポーネントの別ユニットに割り当てられました"
+"異なるネットが同じコンポーネントの別ユニットと共有しているピンに割り当てられ"
+"ました"
 
 #: eeschema/find.cpp:98
 #, c-format
@@ -4516,9 +4507,8 @@ msgstr "重複とグリッドから外れたピンをテスト"
 
 #: eeschema/tool_lib.cpp:184 eeschema/menubar_libedit.cpp:171
 #: eeschema/tool_viewlib.cpp:81 eeschema/tool_viewlib.cpp:197
-#, fuzzy
 msgid "Zoom to fit symbol"
-msgstr "シンボルをインポート"
+msgstr "シンボルに合わせてズーム"
 
 #: eeschema/tool_lib.cpp:196 eeschema/tool_viewlib.cpp:89
 msgid "Show as \"De Morgan\" normal symbol"
@@ -4788,9 +4778,8 @@ msgstr "ズーム アウト (&O)"
 
 #: eeschema/menubar_libedit.cpp:170 eeschema/menubar.cpp:187
 #: eeschema/tool_viewlib.cpp:196 pcbnew/menubar_footprint_editor.cpp:234
-#, fuzzy
 msgid "&Zoom to Fit"
-msgstr "ズーム アウト"
+msgstr "合わせてズーム (&Z)"
 
 #: eeschema/menubar_libedit.cpp:178 eeschema/menubar.cpp:196
 #: eeschema/tool_viewlib.cpp:200 gerbview/menubar.cpp:218
@@ -5849,22 +5838,20 @@ msgid "Edit Eeschema preferences"
 msgstr "Eeschema の設定を編集"
 
 #: eeschema/menubar.cpp:741 pcbnew/menubar_pcb_editor.cpp:257
-#, fuzzy
 msgid "&Save Project File..."
-msgstr "プロジェクト ファイルの保存"
+msgstr "プロジェクトファイルの保存 (&S)..."
 
 #: eeschema/menubar.cpp:742 pcbnew/menubar_pcb_editor.cpp:258
 msgid "Save project preferences into a project file"
-msgstr ""
+msgstr "プロジェクトの設定をプロジェクトファイルに保存"
 
 #: eeschema/menubar.cpp:747 pcbnew/menubar_pcb_editor.cpp:262
-#, fuzzy
 msgid "Load P&roject File..."
-msgstr "プロジェクトファイルをロード"
+msgstr "プロジェクトファイルをロード (&P)..."
 
 #: eeschema/menubar.cpp:748 pcbnew/menubar_pcb_editor.cpp:263
 msgid "Load project preferences from a project file"
-msgstr ""
+msgstr "プロジェクトの設定をプロジェクトファイルからロード"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:19
 msgid "New Plot"
@@ -6129,7 +6116,6 @@ msgid "Polyline at (%s, %s) with %d points"
 msgstr "ポリライン (%s, %s)  %d ポイント"
 
 #: eeschema/eeschema_config.cpp:176 pcbnew/pcbnew_config.cpp:195
-#, fuzzy
 msgid "Load Project File"
 msgstr "プロジェクトファイルをロード"
 
@@ -8085,9 +8071,8 @@ msgid "Error: not a symbol or no symbol."
 msgstr "エラー: シンボルではない、またはシンボルがありません"
 
 #: eeschema/sch_edit_frame.cpp:1477 eeschema/sch_edit_frame.cpp:1484
-#, fuzzy
 msgid "Eeschema"
-msgstr "eeschema"
+msgstr "Eeschema"
 
 #: eeschema/sch_edit_frame.cpp:1495
 msgid " [no file]"
@@ -8269,9 +8254,8 @@ msgid "Selected net: "
 msgstr "選択されたネット: "
 
 #: eeschema/cross-probing.cpp:287
-#, fuzzy
 msgid "Schematic saved"
-msgstr "回路図の大きさ"
+msgstr "回路図を保存しました"
 
 #: eeschema/pin_type.cpp:47 eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:33
 msgid "Tri-state"
@@ -9724,9 +9708,9 @@ msgid "Annotation required!"
 msgstr "アノテーションの実行が必要です！"
 
 #: eeschema/dialogs/dialog_erc.cpp:582
-#, fuzzy, c-format
+#, c-format
 msgid "Pin %s on %s is connected to both %s and %s"
-msgstr "ピン %s (%s) (コンポーネント %s) が次に接続されています"
+msgstr "ピン %s (%s) が %s と %s に接続されました"
 
 #: eeschema/dialogs/dialog_erc.cpp:616 pcbnew/drc.cpp:485
 msgid "Finished"
@@ -10013,9 +9997,8 @@ msgstr ""
 "同様のラベルとは、大文字/小文字だけが違っているような (シート内の) ラベルです"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:138
-#, fuzzy
 msgid "Test single instances of global labels"
-msgstr "固有のグローバル ラベルを確認"
+msgstr "固有なグローバル ラベルであることを確認"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:139
 msgid ""
@@ -11493,7 +11476,7 @@ msgstr ""
 #: eeschema/pinedit.cpp:748
 #, c-format
 msgid " in units %c and %c"
-msgstr ""
+msgstr "%c と %c のユニット内"
 
 #: eeschema/pinedit.cpp:756 eeschema/pinedit.cpp:796
 msgid "  of converted"
@@ -11623,9 +11606,8 @@ msgid "Redo last command"
 msgstr "一つ前のコマンドをやり直し"
 
 #: eeschema/help_common_strings.h:45
-#, fuzzy
 msgid "Zoom to fit schematic page"
-msgstr "スクリーン上の基板に合わせてズーム"
+msgstr "回路図ページに合わせてズーム"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
@@ -12068,7 +12050,6 @@ msgid "GerbView"
 msgstr "GerbView"
 
 #: gerbview/gerbview_frame.cpp:785
-#, fuzzy
 msgid " (with X2 attributes)"
 msgstr "(X2属性)"
 
@@ -12371,22 +12352,18 @@ msgid "Show &Layers Manager"
 msgstr "レイヤー マネージャを表示 (&L)"
 
 #: gerbview/menubar.cpp:187
-#, fuzzy
 msgid "Show or hide the layer manager"
-msgstr "レイヤー マネージャー ツールバーの表示/非表示"
+msgstr "レイヤー マネージャーの表示/非表示"
 
 #: gerbview/menubar.cpp:211 pcbnew/menubar_pcb_editor.cpp:639
-#, fuzzy
 msgid "Zoom to &Fit"
-msgstr "ズーム アウト"
+msgstr "合わせてズーム (&F)"
 
 #: gerbview/menubar.cpp:212 gerbview/toolbars_gerber.cpp:84
-#, fuzzy
 msgid "Zoom to fit"
-msgstr "ズーム アウト"
+msgstr "合わせてズーム"
 
 #: gerbview/menubar.cpp:220
-#, fuzzy
 msgid "Refresh screen"
 msgstr "画面の再描画"
 
@@ -12396,107 +12373,87 @@ msgid "Display &Polar Coordinates"
 msgstr "極座標表示 (&P)"
 
 #: gerbview/menubar.cpp:250
-#, fuzzy
 msgid "Sketch F&lashed Items"
-msgstr "図形アイテムをスケッチ表示 (&G)"
+msgstr "図形アイテムをスケッチ表示 (&F)"
 
 #: gerbview/menubar.cpp:250 gerbview/toolbars_gerber.cpp:257
 #: gerbview/toolbars_gerber.cpp:538
-#, fuzzy
 msgid "Show flashed items in outline mode"
-msgstr "スケッチモードで図形アイテムを表示"
+msgstr "アウトライン モードで図形アイテムを表示"
 
 #: gerbview/menubar.cpp:254
-#, fuzzy
 msgid "Sketch &Lines"
-msgstr "ビアをスケッチ表示 (&V)"
+msgstr "線表示 (&L)"
 
 #: gerbview/menubar.cpp:254 gerbview/toolbars_gerber.cpp:261
 #: gerbview/toolbars_gerber.cpp:550
-#, fuzzy
 msgid "Show lines in outline mode"
-msgstr "アウトライン モードでビアを表示"
+msgstr "アウトライン モードで線を表示"
 
 #: gerbview/menubar.cpp:258
-#, fuzzy
 msgid "Sketch Pol&ygons"
-msgstr "ゾーンをスケッチ表示 (&S)"
+msgstr "ポリゴン表示 (&y)"
 
 #: gerbview/menubar.cpp:258 gerbview/toolbars_gerber.cpp:265
 #: gerbview/toolbars_gerber.cpp:562
-#, fuzzy
 msgid "Show polygons in outline mode"
-msgstr "アウトライン モードでパッドを表示"
+msgstr "アウトライン モードでポリゴンを表示"
 
 #: gerbview/menubar.cpp:262
-#, fuzzy
 msgid "Show &DCodes"
-msgstr "Dコード表示"
+msgstr "D コード表示 (&D)"
 
 #: gerbview/menubar.cpp:262
-#, fuzzy
 msgid "Show or hide DCodes"
-msgstr "ピン名を表示/非表示"
+msgstr "D コードを表示/非表示"
 
 #: gerbview/menubar.cpp:266
-#, fuzzy
 msgid "Show &Negative Objects"
-msgstr "ネガのオブジェクトをこの色で表示します"
+msgstr "反転のオブジェクト表示 (&N)"
 
 #: gerbview/menubar.cpp:266 gerbview/toolbars_gerber.cpp:586
-#, fuzzy
 msgid "Show negative objects in ghost color"
 msgstr "ゴースト色で反転オブジェクトを表示"
 
 #: gerbview/menubar.cpp:272
-#, fuzzy
 msgid "Show in Differential Mode"
-msgstr "ピンのエレクトリック タイプを表示 (&e)"
+msgstr "差動表示"
 
 #: gerbview/menubar.cpp:272 gerbview/toolbars_gerber.cpp:598
-#, fuzzy
 msgid "Show layers in differential mode"
-msgstr "差分 (compare) モードでレイヤーを表示"
+msgstr "差動モードでレイヤーを表示"
 
 #: gerbview/menubar.cpp:276
-#, fuzzy
 msgid "Show in High Contrast"
-msgstr "ハイ コントラストを増加"
+msgstr "ハイ コントラスト表示"
 
 #: gerbview/menubar.cpp:276
-#, fuzzy
 msgid "Show in high contrast mode"
-msgstr "ハイコントラスト表示モードを使用"
+msgstr "ハイ コントラストモードで表示"
 
 #: gerbview/menubar.cpp:282
-#, fuzzy
 msgid "Show Normal Mode"
-msgstr "3D モデルを表示 (&o)"
+msgstr "標準表示"
 
 #: gerbview/menubar.cpp:282 gerbview/toolbars_gerber.cpp:597
-#, fuzzy
 msgid "Show layers in normal mode"
-msgstr "差分 (compare) モードでレイヤーを表示"
+msgstr "標準モードでレイヤーを表示"
 
 #: gerbview/menubar.cpp:285
-#, fuzzy
 msgid "Show Stacked Mode"
-msgstr "スケッチモードで配線を表示"
+msgstr "積み重ね表示"
 
 #: gerbview/menubar.cpp:285
-#, fuzzy
 msgid "Show layers in stacked mode"
-msgstr "スケッチ モードでラインを表示"
+msgstr "積み重ねモードでレイヤーを表示"
 
 #: gerbview/menubar.cpp:288
-#, fuzzy
 msgid "Show Transparency Mode"
-msgstr "トレースを表示"
+msgstr "透過表示"
 
 #: gerbview/menubar.cpp:288
-#, fuzzy
 msgid "Show layers in transparency mode"
-msgstr "差分 (compare) モードでレイヤーを表示"
+msgstr "透過モードでレイヤーを表示"
 
 #: gerbview/menubar.cpp:300
 msgid "&Options"
@@ -12735,9 +12692,8 @@ msgstr ""
 "示する"
 
 #: gerbview/toolbars_gerber.cpp:125
-#, fuzzy
 msgid "Cmp: "
-msgstr "コンポーネント:"
+msgstr "コンポーネント : "
 
 #: gerbview/toolbars_gerber.cpp:136
 msgid "Select a net name and highlight graphic items belonging to this net"
@@ -12817,52 +12773,42 @@ msgid "<No selection>"
 msgstr "<選択なし>"
 
 #: gerbview/toolbars_gerber.cpp:526
-#, fuzzy
 msgid "Turn on rectangular coordinates"
 msgstr "直交座標表示"
 
 #: gerbview/toolbars_gerber.cpp:527
-#, fuzzy
 msgid "Turn on polar coordinates"
-msgstr "極座標表示に切替"
+msgstr "極座標表示"
 
 #: gerbview/toolbars_gerber.cpp:539
-#, fuzzy
 msgid "Show flashed items in fill mode"
-msgstr "塗り潰しモードでパッドを表示"
+msgstr "塗り潰しモードでアイテムを表示"
 
 #: gerbview/toolbars_gerber.cpp:551
-#, fuzzy
 msgid "Show lines in fill mode"
-msgstr "塗り潰しモードで外形を表示"
+msgstr "塗り潰しモードで配線を表示"
 
 #: gerbview/toolbars_gerber.cpp:563
-#, fuzzy
 msgid "Show polygons in fill mode"
-msgstr "塗り潰しモードでパッドを表示"
+msgstr "塗り潰しモードでポリゴンを表示"
 
 #: gerbview/toolbars_gerber.cpp:574
-#, fuzzy
 msgid "Hide DCodes"
-msgstr "Dコード"
+msgstr "D コード非表示"
 
 #: gerbview/toolbars_gerber.cpp:574
-#, fuzzy
 msgid "Show DCodes"
-msgstr "Dコード表示"
+msgstr "D コード表示"
 
 #: gerbview/toolbars_gerber.cpp:585
-#, fuzzy
 msgid "Show negative objects in normal color"
-msgstr "ゴースト色で反転オブジェクトを表示"
+msgstr "標準の色で反転オブジェクトを表示"
 
 #: gerbview/toolbars_gerber.cpp:609
-#, fuzzy
 msgid "Disable high contrast mode"
-msgstr "ハイコントラスト表示モードを有効化"
+msgstr "ハイコントラスト表示モードを無効化"
 
 #: gerbview/toolbars_gerber.cpp:610
-#, fuzzy
 msgid "Enable high contrast mode"
 msgstr "ハイコントラスト表示モードを有効化"
 
@@ -14208,9 +14154,8 @@ msgid "Delete selected item"
 msgstr "選択したアイテムを削除"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:92
-#, fuzzy
 msgid "Zoom to fit page"
-msgstr "スクリーン上の基板に合わせてズーム"
+msgstr "ページに合わせてズーム"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:104
 msgid ""
@@ -19422,23 +19367,20 @@ msgid "Assign different footprints from the library"
 msgstr "ライブラリーから別のフットプリントを割り付け"
 
 #: pcbnew/menubar_pcb_editor.cpp:576
-#, fuzzy
 msgid "&Move and Swap Layers..."
-msgstr "レイヤーを入れ替え(&S)..."
+msgstr "レイヤーを入れ替え (&M)..."
 
 #: pcbnew/menubar_pcb_editor.cpp:577
-#, fuzzy
 msgid "Move tracks or drawings from a layer to an other layer"
-msgstr "配線層の配線や他の描画層の図形を交換"
+msgstr "配線や図形を他のレイヤーに移動"
 
 #: pcbnew/menubar_pcb_editor.cpp:582
 msgid "&Global Deletions..."
 msgstr "広域削除(&G)..."
 
 #: pcbnew/menubar_pcb_editor.cpp:583
-#, fuzzy
 msgid "Delete tracks, footprints and graphic items from board"
-msgstr "基板の配線、フットプリント、テキストを削除"
+msgstr "基板の配線、フットプリント、アイテムを削除"
 
 #: pcbnew/menubar_pcb_editor.cpp:587
 msgid "&Cleanup Tracks and Vias..."
@@ -20030,9 +19972,8 @@ msgid "Decrease Via Size"
 msgstr "ビア サイズを減少"
 
 #: pcbnew/hotkeys.cpp:255
-#, fuzzy
 msgid "Toggle Highlight of Selected Net (Modern Toolset only)"
-msgstr "カーソル表示を切替 (モダン ツールセットのみ)"
+msgstr "選択したネットのハイライト表示を切替 (モダン ツールセットのみ)"
 
 #: pcbnew/hotkeys.cpp:279
 msgid "Toggle Cursor Display (Modern Toolset only)"
@@ -21328,9 +21269,8 @@ msgstr "切り取り (&t)"
 
 #: pcbnew/menubar_footprint_editor.cpp:236 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:164
-#, fuzzy
 msgid "Zoom to fit footprint"
-msgstr "フットプリントをインポート"
+msgstr "フットプリントに合わせてズーム"
 
 #: pcbnew/menubar_footprint_editor.cpp:354
 msgid "Edit settings for new pads"
@@ -21451,9 +21391,8 @@ msgstr ""
 "行: %d"
 
 #: pcbnew/swap_layers.cpp:90
-#, fuzzy
 msgid "Move Layers:"
-msgstr "レイヤー:"
+msgstr "レイヤーを移動:"
 
 #: pcbnew/swap_layers.cpp:238 pcbnew/swap_layers.cpp:245
 #: pcbnew/swap_layers.cpp:322
@@ -23752,17 +23691,15 @@ msgstr "塗り潰しモード:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:209
 msgid "Boundary mode:"
-msgstr ""
+msgstr "外界線モード:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:213
-#, fuzzy
 msgid "Low Resolution"
-msgstr "解像度:"
+msgstr "低解像度"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:213
-#, fuzzy
 msgid "High Resolution"
-msgstr "解像度:"
+msgstr "高解像度"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:225
 msgid "Outline slope:"
@@ -23983,7 +23920,7 @@ msgstr "DRC 実行前に全てのゾーンを再塗り潰し"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:111
 msgid "Report all errors for tracks (slower)"
-msgstr ""
+msgstr "配線に関する全てのエラーを報告"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:112
 msgid ""
@@ -23993,6 +23930,10 @@ msgid ""
 "If unselected, only the first DRC violation will be reported for each track "
 "connection."
 msgstr ""
+"選択された場合、配線に関する全ての DRC 違反が報告されます。この処理はデザイン"
+"が複雑な場合は時間がかかります。\n"
+"選択されなかった場合、それぞれの配線における最初の DRC 違反だけが報告されま"
+"す。"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:116
 msgid "Check footprint courtyard overlap"
@@ -24380,9 +24321,8 @@ msgid "Include &board outline layer"
 msgstr "基板外形レイヤーを含む (&b)"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:48
-#, fuzzy
 msgid "Include &vias"
-msgstr "配線を含む (&t)"
+msgstr "ビアを含む (&v)"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:51
 msgid "Include &zones"
@@ -24504,6 +24444,10 @@ msgid ""
 "These items will be no longer accessible\n"
 "Do you wish to continue?"
 msgstr ""
+"削除されたレイヤーにフットプリントのアイテムがあります:\n"
+"%s\n"
+"これらのアイテムは使われません。\n"
+"処理を進めますか？"
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:670
 msgid ""
@@ -25968,9 +25912,8 @@ msgid ""
 msgstr "DRC を有効にします。DRC を無効にした場合は、全ての接続が可能です。"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:207
-#, fuzzy
 msgid "Auto-delete old tracks"
-msgstr "古い配線の自動削除を有効化"
+msgstr "古い配線の自動削除"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:209
 msgid "Enable automatic track deletion when redrawing a track."
@@ -27543,20 +27486,18 @@ msgid "STEP export failed!  Please save the PCB and try again"
 msgstr "STEP のエクスポートに失敗しました！基板を保存して、再実行して下さい"
 
 #: pcbnew/dialogs/dialog_export_step.cpp:238
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' already exists. Do you want overwrite this file?"
-msgstr ""
-"ファイル: %s\n"
-"既に存在します。このファイルを上書きしますか？"
+msgstr "ファイル:  %s は既に存在します。このファイルを上書きしますか？"
 
 #: pcbnew/dialogs/dialog_export_step.cpp:241
 msgid "STEP Export"
 msgstr "STEP エクスポート"
 
 #: pcbnew/dialogs/dialog_export_step.cpp:310
-#, fuzzy, c-format
+#, c-format
 msgid "Executing '%s'"
-msgstr "予期される \"%s\""
+msgstr "実行中 '%s'"
 
 #: pcbnew/dialogs/dialog_export_step.cpp:335
 msgid ""
@@ -27568,11 +27509,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_export_step.cpp:340
 msgid "STEP file has been created, but there are warnings."
-msgstr ""
+msgstr "STEP ファイルが作成されましたが、警告があります。"
 
 #: pcbnew/dialogs/dialog_export_step.cpp:346
 msgid "STEP file has been created succesfully."
-msgstr ""
+msgstr "STEP ファイルが作成されました。"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:37
 msgid "Export to GenCAD settings"
@@ -27704,14 +27645,12 @@ msgid "Disable hotkey move commands and Auto Placement"
 msgstr "移動コマンドと自動配置のホットキーを無効化"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:345
-#, fuzzy
 msgid "Filepath:"
-msgstr "ファイル:"
+msgstr "ファイルパス :"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:345
-#, fuzzy
 msgid "Edit 3D Shape Name"
-msgstr "3Dシェイプ名"
+msgstr "3Dシェイプ名を編集"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:463
 #, c-format
@@ -27886,9 +27825,8 @@ msgid " [new file]"
 msgstr " [新規ファイル]"
 
 #: pcbnew/pcb_edit_frame.cpp:1133
-#, fuzzy
 msgid "Pcbnew"
-msgstr "pcbnew"
+msgstr "Pcbnew"
 
 #: pcbnew/pcb_edit_frame.cpp:1270
 msgid ""
@@ -27918,9 +27856,8 @@ msgid "Find components and text in current loaded board"
 msgstr "現在ロードされている基板にあるコンポーネントとテキストを検索"
 
 #: pcbnew/help_common_strings.h:21
-#, fuzzy
 msgid "Zoom to fit board or page"
-msgstr "スクリーン上の基板に合わせてズーム"
+msgstr "基板かページに合わせてズーム"
 
 #: pcbnew/help_common_strings.h:22
 msgid "Redraw screen"
